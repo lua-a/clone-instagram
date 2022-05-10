@@ -1,0 +1,21 @@
+@import "./properties";
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.84em;
+    font-weight: 500;
+    color: $font-color-secondary;
+     margin-bottom: 1.10em;
+
+    .title {
+        min-width: 200px;
+    }
+
+    a {
+        width: 100%;
+        text-align: right;
+        color:black;
+            
+    }
+}
